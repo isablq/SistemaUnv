@@ -47,12 +47,18 @@ public class ArquivoParser {
                     case '1':  // Tipo 1 - Fase
                         System.out.println("Processando registro de Fase...");
                         Fase fase = FaseParser.parse(linha);
+                        // Aqui estamos configurando o ID do curso para cada fase antes de adicionar à lista
                         fases.add(fase);
                         break;
 
                     case '2':  // Tipo 2 - Disciplina
                         System.out.println("Processando registro de Disciplina...");
                         Disciplina disciplina = DisciplinaParser.parse(linha);
+                        // Atribui o ID da fase para a disciplina
+                        if (!fases.isEmpty()) {
+                            // Agora associamos corretamente o fase_id para a disciplina
+                            disciplina.setFaseId(fases.size());  // Atribui a fase_id corretamente
+                        }
                         disciplinas.add(disciplina);
                         break;
 
@@ -71,6 +77,19 @@ public class ArquivoParser {
                         throw new Exception("Tipo de registro inválido: " + tipoRegistro);
                 }
             }
+
+            // Após o processamento, associar cursos com suas respectivas fases
+            for (int i = 0; i < fases.size(); i++) {
+                Fase fase = fases.get(i);
+                fase.setCursoId(i + 1); // Ajusta o ID do curso para cada fase
+            }
+
+            // Após o processamento de fases, associar as disciplinas com a fase
+            for (int i = 0; i < disciplinas.size(); i++) {
+                Disciplina disciplina = disciplinas.get(i);
+                disciplina.setFaseId(i + 1); // Ajusta o ID da fase para cada disciplina
+            }
+
         }
     }
 

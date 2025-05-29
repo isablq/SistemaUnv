@@ -1,0 +1,15 @@
+com\sistema\model\Fase.class
+com\sistema\dao\FaseDAO.class
+com\sistema\dao\ProfessorDAO.class
+com\sistema\util\ConexaoDB.class
+com\sistema\dao\CursoDAO.class
+com\sistema\parser\ProfessorParser.class
+com\sistema\parser\DisciplinaParser.class
+com\sistema\parser\FaseParser.class
+com\sistema\App.class
+com\sistema\model\Disciplina.class
+com\sistema\model\Professor.class
+com\sistema\model\Curso.class
+com\sistema\parser\ArquivoParser.class
+com\sistema\parser\CursoParser.class
+com\sistema\dao\DisciplinaDAO.class

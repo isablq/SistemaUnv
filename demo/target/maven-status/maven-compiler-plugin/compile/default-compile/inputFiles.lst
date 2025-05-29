@@ -1,0 +1,15 @@
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\App.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\dao\CursoDAO.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\dao\DisciplinaDAO.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\dao\FaseDAO.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\dao\ProfessorDAO.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\model\Curso.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\model\Disciplina.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\model\Fase.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\model\Professor.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\parser\ArquivoParser.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\parser\CursoParser.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\parser\DisciplinaParser.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\parser\FaseParser.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\parser\ProfessorParser.java
+C:\Users\isabe\Desktop\SistemaUnv\demo\src\main\java\com\sistema\util\ConexaoDB.java
